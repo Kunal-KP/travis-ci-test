@@ -7,4 +7,4 @@ before_install:
   - docker build -t Kunal-KP/travis-ci-test -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true Kunal-KP/travis-ci-test npm run test
+  - docker run -e CI=true kunal-kp/travis-ci-test npm run test
